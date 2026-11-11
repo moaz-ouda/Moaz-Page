@@ -4,34 +4,64 @@ body{
 *{
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Exile" ;
+    src: url(../fonts/Exile-Regular.ttf);
+}
+@font-face {
+    font-family: "Zeyada" ;
+    src: url(../fonts/Zeyada-Regular.ttf);
+}
+@font-face {
+    font-family: "TALAL";
+    src: url(../fonts/TALAL-VF.ttf);
+}
+@font-face {
+    font-family:"EBGaramond" ;
+    src: url(../fonts/EBGaramond-VariableFont_wght.ttf);
+}
+.all{
+    width: 100% ;
+    margin: auto ;
+}
 .hero{
     background: #3F5EFB;
 background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
-
+    width: 100%;
+    margin: auto ;
 }
 h1{
     display: inline-block;
-    margin: 10px 400px 10px 100px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    font-family: "Exile" ;
+    
 }
 .links{
+    width: 55%;
+    margin: auto;
+    text-align: center;
     display: inline-block;
-    margin-left: 40px;
+    
 }
 .links a {
-
+    font-family:"EBGaramond" ;
     color: black; 
     font-size: larger;
     text-decoration: none ;
-    margin-left:20px ;
+    
 }
 .icons{
+    text-align: center;
     display: inline-block;
-    margin-left: 500px;
+    width: 20%;
+    margin: auto;
 }
 .icons i {
     font-size: xx-large;
-    margin-left: 20px;
     color: rgb(12, 11, 13);
+    
 }
 .icons i:hover {
     color: blue ;
@@ -42,7 +72,9 @@ h1{
 hr{
     background-color: #020024;
     color: #ff0000;
-    margin:3px 0 ;
+    width: 50%;
+    text-align: center;
+    height: 5%;
 }
 .body{
     background: #020024;
@@ -52,37 +84,45 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 24%,
     display: inline-block ;
     text-align: center;
     width: 100% ;
-    height: 300px;
-    margin: 20px auto ;
-    
+    padding-top: 20px;
 }
 .main2 img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border : 3px dotted red ;
+    border : 2px dotted red ;
 }
 .main2 h2{
+    text-align: center;
+    font-family: "Zeyada" ;
     background: #833AB4;
 background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(196, 45, 133, 1) 36%, rgba(26, 2, 2, 1) 43%, rgba(253, 29, 29, 1) 50%, rgba(196, 45, 133, 1) 55%, rgba(47, 11, 49, 1) 62%, rgba(252, 176, 69, 1) 100%);
     color: transparent;
     -webkit-background-clip: text ;
 
 }
+.main3{
+    width: 100%;
+
+}
 .main3 .text1{
+    border-radius: 20px;
+    font-family:"EBGaramond" ;
     color: white;
     display: inline-block;
     background-color: #02002452;
-    width: 40%;
-    margin:20px 20px 20px 150px ;
+    width: 45%;
     padding-left: 10px;
+    margin-left: 5%;
+    margin-bottom: 5%;
     
 }
 .main3 .text2{
+    border-radius: 20px;
+    font-family:"EBGaramond" ;
     color: white;
     display: inline-block;
     background-color: #02002453;
-    width: 40%;
-    margin:20px auto;
+    width: 45%;
     padding-left: 10px;
 }
