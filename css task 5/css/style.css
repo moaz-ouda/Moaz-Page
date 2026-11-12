@@ -1,5 +1,5 @@
 body{
-    margin : 0 ;
+    margin : 0px ;
 }
 *{
     box-sizing: border-box;
@@ -20,75 +20,73 @@ body{
     font-family:"EBGaramond" ;
     src: url(../fonts/EBGaramond-VariableFont_wght.ttf);
 }
-.all{
-    width: 100% ;
-    margin: auto ;
-}
+
 .hero{
-    background: #3F5EFB;
-background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
-    width: 100%;
-    margin: auto ;
-}
-h1{
-    display: inline-block;
-    width: 20%;
+    background: #5c614e;
+    font-family: "TALAL";
+    font-style: italic;
+    width: 99%;
     margin: auto;
-    text-align: center;
-    font-family: "Exile" ;
-    
+    border-radius: 26px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-.links{
-    width: 55%;
+.hero .head {
+    width: 80%;
     margin: auto;
-    text-align: center;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     
 }
-.links a {
-    font-family:"EBGaramond" ;
-    color: black; 
-    font-size: larger;
-    text-decoration: none ;
+.hero .head .header h2{
+    font-family:"Exile" ;
+}
+.hero .head .links{
+    padding-top: 2%;
+}
+.hero .head .links a{
+    
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    margin-left: 16px;
+}
+.hero .head .icons{
+    padding-top: 20px
     
 }
-.icons{
-    text-align: center;
-    display: inline-block;
-    width: 20%;
-    margin: auto;
-}
-.icons i {
-    font-size: xx-large;
-    color: rgb(12, 11, 13);
+.hero .head .icons a{
+    font-size: x-large;
+    margin-left: 16px;
+    color: #020024;
+    #insta:hover{
+        color: rgb(203, 12, 66);
+    }
     
 }
-.icons i:hover {
-    color: blue ;
-}
-#insta:hover{
-    color: red;
-}
-hr{
-    background-color: #020024;
-    color: #ff0000;
-    width: 50%;
-    text-align: center;
-    height: 5%;
-}
+#face:hover{
+        color: rgba(10, 10, 242, 0.91);
+    }
+
+
 .body{
-    background: #020024;
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 24%, rgba(0, 212, 255, 1) 51%, rgba(41, 9, 145, 1) 62%, rgba(0, 212, 255, 1) 73%, rgba(41, 9, 145, 1) 85%, rgba(0, 212, 255, 1) 100%);
+    background: #1c1a4c;
+    
+    width: 99%;
+    margin: auto;
+    border-radius: 26px;
+    padding-bottom: 40px;
 }
 .main2{
+    
     display: inline-block ;
     text-align: center;
     width: 100% ;
     padding-top: 20px;
 }
 .main2 img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border : 2px dotted red ;
 }
@@ -102,19 +100,23 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(0, 0, 0, 1) 30
 
 }
 .main3{
-    width: 100%;
-
+    width: 80%;
+    margin: auto ;
+    display: flex;
+    justify-content:space-between;
+    
 }
 .main3 .text1{
+
     border-radius: 20px;
     font-family:"EBGaramond" ;
     color: white;
     display: inline-block;
     background-color: #02002452;
-    width: 45%;
+    max-width: 45%;
+    max-height: 300px;
+    overflow: auto;
     padding-left: 10px;
-    margin-left: 5%;
-    margin-bottom: 5%;
     
 }
 .main3 .text2{
@@ -122,7 +124,9 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(0, 0, 0, 1) 30
     font-family:"EBGaramond" ;
     color: white;
     display: inline-block;
-    background-color: #02002453;
-    width: 45%;
+    background-color: #02002452;
+    max-width: 45%;
+    max-height: 300px;
+    overflow: auto;
     padding-left: 10px;
 }
